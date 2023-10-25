@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(98, 6, 148);
+}
+
+#left{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    width: 50%; 
+    border: 1px;
+    background-color: blueviolet;
+}
+#upper{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    background-color: rgb(190, 86, 239);
+    left: 5%;
+    top: 5%;
+    box-shadow: 0 0 20px rgb(190, 86, 239);
+}
+#pic{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    top: 40px;
+    background-image: url(images/spiderman.jpg);
+    background-size: contain;
+    box-shadow: 0 0 20px rgba(52, 75, 228, 0.9);
+}
+/* .name{
+    position: absolute;
+    bottom: 330px;
+    font-size: 20px;
+    color: rgba(74, 77, 221, 0.951);
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}  
+#line{
+    height: 4px;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    background-color: rgb(179, 138, 240);
+    box-shadow: 0 0 20px rgba(21, 71, 235, 0.755);
+} */
+#lower{
+    display: flex;
+    position: absolute;
+    background-color: rgb(215, 180, 238);
+    height: 10%;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    justify-content: space-around;
+}
+.link{
+    position: relative;
+    top: 26px;
+    text-decoration: none;
+    color: rgb(176, 122, 231);
+}
+/* #intro{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    left: 850px;
+    top: 50px;
+} */
+#port{
+    /* position: fixed; */
+    /* right: 180px;
+    bottom: 150px; */
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+}
+#port:hover{
+    background-color: blueviolet;
+}
+.link:hover{
+    color: rgb(61, 6, 113);
+}
+/* #myint{
+    color: rgba(51, 50, 50, 0.848); 
+    font-weight: 100;
+}
+#intro{
+    position:absolute;
+    box-shadow: 0 0 15px rgba(149, 5, 239, 0.9);
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(190, 86, 239);
+    height: 50%;
+    width: 50%;
+} */
+/* #buttons{
+    position: fixed;
+    display: flex;
+    height: 80px;
+    margin-top: 600px;
+    margin-left: 54%;
+    width: 700px;
+    justify-content: space-around;
+} */
+#theme1{
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+}
+#theme1:hover{
+    background-color: blueviolet;
+}
+#port{
+    margin-top: 500px;
+}
+#theme1{
+    margin-top: 500px;
+}
+#portf{
+    /* position: fixed; */
+    /* right: 180px;
+    bottom: 150px; */
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+}
+#portf:hover{
+    background-color: blueviolet;
+}
+#portf{
+    margin-top: 500px;
+}

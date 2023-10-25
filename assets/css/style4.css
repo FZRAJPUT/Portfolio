@@ -1,0 +1,67 @@
+#view{
+    display: flex;
+    position: relative;
+    height: 70%;
+    width:  70%;
+    background-color: rgb(205, 174, 244);
+    display: none;
+    border-radius: 5%;
+    top: 10%;
+    right: 15%;
+}
+
+#pera{
+    font-size: 20px;
+    left: 12px;
+    position: absolute;
+}
+.skills{
+    position: absolute;
+    top: 45%;
+}
+li{
+    color: rgb(32, 14, 59);
+    margin-left: -15px;
+}
+h1{
+    color: rgb(54, 4, 81);
+    margin-right:360px;
+}
+#pera{
+    color: rgb(191, 160, 225);
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    background-color: rgb(102, 102, 219);
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgb(48, 96, 240);
+    left: 14%;
+    right: 20%;
+    top: 9%;
+}
+#footer{
+    background-color: rgb(210, 147, 241);
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    color: rgb(0, 5, 9);
+}
+#Close{
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 56vw;
+    top: -9vw;
+}
